@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "url-shortener"
+version = "0.1.0"
+description = "A URL Shortener API"
+authors = ["Miguel Gagliardo"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "shortener_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "0.75.0"
+python-dotenv = "0.19.2"
+sqlalchemy = "1.4.32"
+uvicorn = "0.17.6"
+validators = "0.18.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
