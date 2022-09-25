@@ -3,7 +3,7 @@ name = "url-shortener"
 version = "0.1.0"
 description = "A URL Shortener API"
 authors = ["Miguel Gagliardo"]
-license = "MIT"
+license = "gpl-3.0"
 readme = "README.md"
 packages = [{include = "shortener_app"}]
 
